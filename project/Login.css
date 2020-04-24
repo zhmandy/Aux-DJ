@@ -1,0 +1,107 @@
+body {
+  margin: 100px;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-color: rgba(64, 64, 64, 0.81);
+  background-image: url('Background.jpg');
+  background-blend-mode: color;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.content-grid-container{
+  display: grid;
+  grid-template-columns: 400px 400px;
+  align-content: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+
+.transbox {
+  margin: 30px;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 8px;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  text-align: center;
+}
+
+
+.transbox b {
+  margin: 5%;
+  font-weight: none;
+  font-size: 1.2em;
+  color: black;
+}
+
+input[type=text] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-color:white;
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.button {
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.tooltip {
+}
+
+.tooltip .tooltiptext {
+  opacity: 0.7;
+  visibility: hidden;
+  width: 800px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  border-radius: 8px;
+  padding: 10px 10px;
+  position: absolute;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+

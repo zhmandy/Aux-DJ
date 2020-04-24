@@ -1,0 +1,43 @@
+<!DOCTYPE Login-Homepage>
+<html>
+
+<link rel="stylesheet" type="text/css" href="Login.css">
+
+<body background="Background.jpg">
+  <h2>Aux DJ</h2>
+  <h1>Everyone's a DJ</h1>
+
+  <div class="content-grid-container">
+    
+    <div class="transbox">
+      <b>Join An Existing Room</b>
+      <input type="text" id="join_roomid" placeholder="Room ID" style="color: white;"><br>
+      <button class="button button-1" onclick="joinRoom()">Join Room</button>
+    </div>
+
+    <div class="transbox">
+      <b>Create A New Room</b>
+      <input type="text" id="create_roomid" placeholder="Room ID" style="color: white;"><br>
+      <button class="button button-2" onclick="createRoom()">Create Room</button>
+    </div> 
+    
+  </div>
+
+  <div class="tooltip" style="display: flex; justify-content: flex-end; align-items: center;">
+    <img src="help.png" width="5%" alt="help" class="help" id="help"> 
+    <span class="tooltiptext">
+        Welcome to AUX DJ. Hope you have a wonderful party!<br><br>
+        • For Guest to join an already existing room : Please enter the room ID and join in the room. You do not need to log in with any music platforms. <br><br>
+        • For DJ to create a new room : Please customize your own room ID and then log in with your Spotify account. <br>
+    </span>
+  </div> 
+
+
+
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="Login.js"></script>
+
+</body>
+</html>

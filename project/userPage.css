@@ -1,0 +1,154 @@
+#searchInput {
+    width: 700px;
+    height: 40px;
+}
+
+.btn-outline-secondary {
+	margin-left: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 4px;
+	color: white;
+	border-color: white;
+}
+
+.section-1 {
+	margin: 0px;
+	margin-top: 120px;
+	padding-left: 120px;
+}
+
+.brand {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+
+.navbar-brand {
+	padding: 0px;
+	padding-bottom: 10px;
+}
+
+.nav-text {
+	font-size: 20px;
+	color: white;
+}
+
+.list-group-item {
+	width: 600px;
+}
+
+.container {
+	margin-left: 105px;
+	margin-right: 0px;
+}
+
+.list-pic {
+	margin-left: 20px;
+}
+
+.list-meta {
+	padding-left: 50px;
+}
+
+.list-song {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.list-group-item.active {
+	background-color: #A6A6A6;
+	border-color: #A6A6A6;
+}
+
+.page-song {
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.words {
+	font-size: 20px;
+}
+
+.visit {
+	margin-top: 50px;
+	background-color: #A6A6A6;
+	border-color: #A6A6A6;
+	border-radius: 20px;
+}
+
+.visit:hover {
+	background-color: #CAC9C9;
+	border-color: #CAC9C9;
+}
+
+.visit.active {
+	background-color: #A6A6A6;
+	border-color: #A6A6A6;
+}
+
+.lyrics {
+	padding-top: 30px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.content {
+	font-size: 20px;
+}
+
+.footer {
+	background-color: #CAC9C9;
+}
+
+.section-2 {
+	padding: 5px 0px;
+}
+
+#music {
+	margin-top: 18px;
+	width: 750px;
+}
+
+div.col-1 .list-pic {
+	margin-left: 0px;
+}
+
+.col-2.list-meta {
+	padding-left: 20px;
+	padding-top: 8px;
+}
+
+#skip {
+	background-color: #CAC9C9;
+	margin-top: 25px;
+	border-radius: 80px;
+}
+
+.delete {
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+}
+
+.ep {
+	margin-top: 5px;
+}
+
+.play {
+	font-size: 12px;
+}
+
+.footer-song {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.col-6.bar {
+	padding: 0px;
+}
+
+.rec {
+	margin-bottom: 5px;
+}
